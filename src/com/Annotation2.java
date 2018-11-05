@@ -24,7 +24,7 @@ public class Annotation2 {
 	WebDriverWait wait=new WebDriverWait(driver, 6);
 	String testProject="Gmail";
 	String testPlan="SampleTestPlan";
-	String testCase="GmailLogin1";
+	String testCase="GmailLogin2";
 	String build="SampleBuild";
 	String notes=null;
 	String result=null;
@@ -36,7 +36,7 @@ public class Annotation2 {
 	driver.findElement(By.id("signIn")).click();
 	driver.switchTo().defaultContent();
 	wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("+Testlink")));*/
-	result= TestLinkAPIResults.TEST_FAILED;
+	result= TestLinkAPIResults.TEST_PASSED;
 	notes="Executed successfully";
 	}
 	catch(Exception e){

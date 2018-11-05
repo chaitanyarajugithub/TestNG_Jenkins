@@ -36,7 +36,7 @@ public class Annotation2 {
 	driver.findElement(By.id("signIn")).click();
 	driver.switchTo().defaultContent();
 	wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("+Testlink")));*/
-	result= TestLinkAPIResults.TEST_PASSED;
+	result= TestLinkAPIResults.TEST_FAILED;
 	notes="Executed successfully";
 	}
 	catch(Exception e){

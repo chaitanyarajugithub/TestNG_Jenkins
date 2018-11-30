@@ -24,7 +24,7 @@ public class Annotation2 {
 	WebDriverWait wait=new WebDriverWait(driver, 6);
 	String testProject="Gmail";
 	String testPlan="SampleTestPlan";
-	String testCase="Test1";
+	String testCase="Test";
 	String build="SampleBuild";
 	String notes=null;
 	String result=null;
